@@ -1,0 +1,43 @@
+﻿#### Hospedagem ####
+
+Banco de Dados
+Conection Name: CAMPOS
+Connection Method: Standard (TCP/IP)
+Parameters
+Hostname: danielsilva.com.br
+Port: 3306
+Username: danielsilvacom_usuario
+Password: 7DM]6Cfq_TGj
+Default Schema: danielsilvacom_principal
+
+cPanel
+https://cpanel.danielsilva.com.br/
+Usuário: danielsilvacom
+senha: ezIg2.(10%b)
+
+FTP
+Host: danielsilva.com.br
+Porta: 21
+Usuário: danielsilvacom
+senha: ezIg2.(10%b)
+
+#### Casa ####
+
+Banco de Dados
+Conection Name: LOCALOUT
+Connection Method: Standard TCP/IP over SSH
+Parameters
+SSH Hostname: 191.242.244.114:10022
+SSH Username: pi
+SSH Password: 
+MySQL Hostname: localhost
+MySQL Server Port: 3306
+Username: root
+Password: 
+Default Schema: 
+
+FTP
+Host: 191.242.244.114
+Porta: 10021
+Usuário: pi
+senha: 
