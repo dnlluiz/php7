@@ -7,7 +7,7 @@ foreach ($images as $img) {
 	if (!in_array($img, array(".",".."))) {
 
 		$filename = "images" . DIRECTORY_SEPARATOR . $img;
-
+		echo $filename.'<br>';
 		$info = pathinfo($filename);
 
 		$info["size"] = filesize($filename);
@@ -18,6 +18,10 @@ foreach ($images as $img) {
 	}
 }
 
-echo json_encode($data);
+
+
+//var_dump($images);
+
+//echo json_encode($data);
 
 ?>
